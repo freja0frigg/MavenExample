@@ -1,5 +1,9 @@
-/**
- * Created by Olga on 16.10.2015.
- */
+import
+import
+
+@Test
 public class ExperimentTest {
+    public  void ExperimentTest() {
+        Assert.assertTreu(true);
+    }
 }

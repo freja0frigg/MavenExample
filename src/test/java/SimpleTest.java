@@ -23,4 +23,12 @@ public void fifteenTest() {
         boolean result = checker.isNumberPrimal(23);
         Assert.assertEquals(result,true);
     }
+    @Test(groups = "sanity")
+    public void twentyOneeTest() {
+
+        PrimalNumberChecker checker = new PrimalNumberChecker();
+        boolean result = checker.isNumberPrimal(21);
+        Assert.assertEquals(result,false);
+    }
 }
+
